@@ -1,0 +1,36 @@
+.c-entry {
+
+    &__slider {
+
+        .VueCarousel-navigation-button {
+            appearance: none;
+            background-color: transparent;
+            background-repeat: no-repeat;
+            background-size: 12px 23px;
+            color: transparent;
+            height: 23px;
+            text-indent: -9999px;
+            width: 12px;
+        }
+
+        .VueCarousel-navigation-next {
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAYCAYAAADOMhxqAAAAAXNSR0IArs4c6QAAARlJREFUOBGNki9rglEUh1VeDBPTgrDoEPMMC2aDyJJtYBhYZQY/wcravsFgebZhFoPdIsLqgmmCC4Mh/nn3HLgHrqDn3gM/ztH7PFe892bSNP0gW9LIxBTgD5H6JbWgA9QT2tU3vRIjvahB/yIlUwLIkiHRmjMUQ1ICNFaDPiX5kFQAkt215ARzIakEJP9D69UUZBHymqzUoD/FSDeAf57UjZFaCHsnHejtGOnR+5WFeQKAF+zY8XZ99+bjEThPJkRLLjZ7TLlPLOTISEm6XGhyEpYvWXwjWjOGggU/K0n/JJcW3PfgJfOVBd978Jq5asF3ADsnyO3eWnAdYONgkZpnYVkA8F/mgwk7QU5C3skgCDtB3n85Cgb6B00rlkGsHKvmAAAAAElFTkSuQmCC);
+            transition: right 0.3s;
+
+
+            &:hover, &:focus {
+                right: -2px;
+            }
+        }
+
+        .VueCarousel-navigation-prev {
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAYCAYAAADOMhxqAAAAAXNSR0IArs4c6QAAAR9JREFUOBGN0zFLQmEUxnGzhsChwK3BsYZExxaH5ij7BEIQtEhfoMlRaBIEP4DQV9ClobGl1oZWwUESlIaGuP4P3AMPce6bBx7ew3t+Z3m5t1TaorIs6xCrwb8cdEF+TVPvyQXAGfk2mdd14QLghCxdcnZT+AgwE9xP4UPgh+BxCu8DXwU/0++GCzYgE8Fv9JUQ2yXDseBP+moKPwpe0NdS+F7wmr5RiG0A+JKFqyRmWCYTQXcsx6/iCLBH7Pm8nmh2fB6egAqxZ/QahVAvkVViz+n1oPOwR9bI3Dc4b0Kol6A6WeVL9h9c6jzsQS3yky/ZeR5CvQS1if9p9hM1dR72oFviZZ/McQj1EtTzDc4XnRX2wGG+NC1EfwcsnJKDDRF3kBJTr6rrAAAAAElFTkSuQmCC);
+            transition: left 0.3s;
+            
+
+            &:hover, &:focus {
+                left: -2px;
+            }
+        }
+    }
+}

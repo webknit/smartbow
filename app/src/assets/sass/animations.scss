@@ -1,0 +1,45 @@
+// Section fade ins
+
+// FADE-1 - simple fade in/out - for elements that won't affect page flow
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
+// FADE-2 a delay both in and out
+
+.fade2-enter-active, .fade2-leave-active {
+  transition: opacity .5s;
+  transition-delay: .5s;
+}
+
+.fade2-enter, .fade2-leave-to {
+  opacity: 0;
+}
+
+// Keyframes
+
+@keyframes pulse {
+    0% {
+        transform: scale(1.1);
+        opacity: .2;
+    }
+    100% {
+        transform: scale(5);
+        opacity: 0;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1.1);
+        opacity: .2;
+    }
+    100% {
+        transform: scale(7);
+        opacity: 0;
+    }
+}

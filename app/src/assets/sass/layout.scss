@@ -1,0 +1,10 @@
+.o-container {
+    margin: 0 auto;
+	width: 90%;
+	
+    @include breakpoint(large) {
+		max-width: 1000px;
+		margin: 0 auto;
+		width: 96%;
+	}
+}

@@ -1,0 +1,50 @@
+.u-mb-0 {
+    margin-bottom: 0;
+}
+
+.u-mb-4 {
+    margin-bottom: 1rem;
+}
+
+.u-mb-6 {
+    margin-bottom: 1.5rem;
+}
+
+.u-a11y {
+    height: 1px; width: 1px;
+	overflow: hidden;
+	position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+.u-uppercase {
+    text-transform: uppercase;
+}
+
+.u-text-small {
+    font-size: 0.9rem;
+}
+
+.u-center-align {
+    text-align: center;
+}
+
+.u-link-stretch {
+
+	&:before {
+		content: "";
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+}
+
+.c-view__text a,
+.c-view__text a:hover,
+.c-view__text a:focus {
+    color: white;
+    text-decoration: underline;
+}

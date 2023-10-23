@@ -1,0 +1,38 @@
+// Reset, box sizing
+blockquote,body,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,th,var{font-style:normal;font-weight:400}caption,th{text-align:left}a:not([class]){text-decoration-skip-ink:auto}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400}abbr,acronym{border:0}embed,img,object{height:auto;max-width:100%}img{display:block}button,input,select,textarea{font:inherit}button{background:0 0;border:none;padding:0}a,button{cursor:pointer}img{vertical-align:bottom}figcaption,figure{margin:0}@media (prefers-reduced-motion:reduce){*{animation-duration:0s!important;animation-iteration-count:1!important;transition-duration:0s!important;scroll-behavior:auto!important}}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+
+html {
+    color: white;
+    font-family: proxima-nova-extra-condensed, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    text-size-adjust: 100%;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+
+    &.fixed {
+        position: fixed;
+    }
+}
+
+html {
+    -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+* {
+  &,
+  &:before,
+  &:after {
+    -webkit-box-sizing: inherit;
+       -moz-box-sizing: inherit;
+            box-sizing: inherit;
+    }
+}
